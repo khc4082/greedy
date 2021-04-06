@@ -18,7 +18,7 @@
 
 ### 예시)
 
-<img width="130" alt="다익스트라" src="https://user-images.githubusercontent.com/80773617/113661742-9ebe1f00-96e1-11eb-8e88-cb0144fde3ce.png"> <img width="130" alt="배열" src="https://user-images.githubusercontent.com/80773617/113661787-b4334900-96e1-11eb-89ab-3d569dc23ed7.png">
+<img width="150" alt="다익스트라" src="https://user-images.githubusercontent.com/80773617/113661742-9ebe1f00-96e1-11eb-8e88-cb0144fde3ce.png"> <img width="150" alt="배열" src="https://user-images.githubusercontent.com/80773617/113661787-b4334900-96e1-11eb-89ab-3d569dc23ed7.png">
 
 ### 일반 배열을 이용한 소스코드
 
