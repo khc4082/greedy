@@ -1,7 +1,7 @@
 # greedy
 
 ---------------------
-![image](https://user-images.githubusercontent.com/80773617/113665613-b77e0300-96e8-11eb-9536-2c89668c7165.png)
+<img width="130" alt="다익스트라 진짜 배열" src=!https://user-images.githubusercontent.com/80773617/113665613-b77e0300-96e8-11eb-9536-2c89668c7165.png>
 
 
 ### 다익스트라 알고리즘 (Dijkstra Algorithm) 이란 최단거리를 탐색하는 알고리즘을 말한다.
