@@ -15,8 +15,7 @@
 5. 최소 비용 노드에 대한 선택과 저장을 반복 (= 3번과 4번을 반복)
 
 위 과정을 통해 얻은 데이터들은 배열로 처리되고 저장된다. 
-<img width="130" alt="다익스트라" src="https://user-images.githubusercontent.com/80773617/113661742-9ebe1f00-96e1-11eb-8e88-cb0144fde3ce.png">
-<img width="130" alt="배열" src="https://user-images.githubusercontent.com/80773617/113661787-b4334900-96e1-11eb-89ab-3d569dc23ed7.png">
+
 ### 예시)
 ![image](https://user-images.githubusercontent.com/80773617/113661742-9ebe1f00-96e1-11eb-8e88-cb0144fde3ce.png) ![image](https://user-images.githubusercontent.com/80773617/113661787-b4334900-96e1-11eb-89ab-3d569dc23ed7.png)
 
