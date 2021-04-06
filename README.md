@@ -21,6 +21,7 @@
 
 <img width="200" alt="다익스트라" src="https://user-images.githubusercontent.com/80773617/113661742-9ebe1f00-96e1-11eb-8e88-cb0144fde3ce.png"> <img width="400" alt="배열" src="https://user-images.githubusercontent.com/80773617/113661787-b4334900-96e1-11eb-89ab-3d569dc23ed7.png">
 
+--------------------
 ### 일반 배열을 이용한 소스코드
 
 dijkstra 알고리즘에서 먼저,
@@ -84,7 +85,7 @@ Edge edge = pq.poll();
 
 
 
-
+----------------
 ### 실행화면
 
 
