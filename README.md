@@ -1,7 +1,7 @@
 # greedy
 
 ---------------------
-<p align="center"><img width="50%" alt="이름표" src="https://user-images.githubusercontent.com/80773617/113665613-b77e0300-96e8-11eb-9536-2c89668c7165.png"></p>
+<p align="center"><img width="30%" alt="이름표" src="https://user-images.githubusercontent.com/80773617/113665613-b77e0300-96e8-11eb-9536-2c89668c7165.png"></p>
 
 ### 다익스트라 알고리즘 (Dijkstra Algorithm) 이란 최단거리를 탐색하는 알고리즘을 말한다.
 한 정점으로 부터 다른 모든 정점까지의 최단거리를 구하는 방식으로, 가능한 적은 시간비용을 이용해 가장 빠르게 문제를 해결하는 상황에서 사용된다. 사용의 예시로는 지하철 노선 검색, 내비게이션 등이 있다.
