@@ -15,3 +15,5 @@
 
 ### 시간복잡도
 
+> ![시간복잡도](https://user-images.githubusercontent.com/51106969/113658862-d033ec00-96db-11eb-942e-d8e5692787a6.PNG)
+>> 일반 배열을 사용하였을 경우 O(n^2) , 큐를 사용하였을 경우 O(n*logn) 임을 확인할 수 있다.
