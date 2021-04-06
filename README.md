@@ -2,7 +2,7 @@
 
 ---------------------
 
-  다익스트라 알고리즘 (Dijkstra Algorithm) 이란 최단거리를 탐색하는 알고리즘을 말한다.
+## 다익스트라 알고리즘 (Dijkstra Algorithm) 이란 최단거리를 탐색하는 알고리즘을 말한다.
 한 정점으로 부터 다른 모든 정점까지의 최단거리를 구하는 방식으로, 가능한 적은 시간비용을 이용해 가장 빠르게 문제를 해결하는 상황에서 사용된다. 사용의 예시로는 지하철 노선 검색, 내비게이션 등이 있다.
 
   알고리즘의 작동 구조는 다음과 같다
@@ -16,10 +16,10 @@
 
 위 과정을 통해 얻은 데이터들은 배열로 처리되고 저장된다. 
 
-### EX)
-![image](https://user-images.githubusercontent.com/80773617/113661742-9ebe1f00-96e1-11eb-8e88-cb0144fde3ce.png)
+### 예시)
+<center>![image](https://user-images.githubusercontent.com/80773617/113661742-9ebe1f00-96e1-11eb-8e88-cb0144fde3ce.png)</center>
 
-![image](https://user-images.githubusercontent.com/80773617/113661787-b4334900-96e1-11eb-89ab-3d569dc23ed7.png)
+<center>![image](https://user-images.githubusercontent.com/80773617/113661787-b4334900-96e1-11eb-89ab-3d569dc23ed7.png)</center>
 
 ### 일반 배열을 이용한 소스코드
 
@@ -34,8 +34,7 @@ dijkstra 알고리즘에서 먼저,
 
 배열을 이용한 코드에서는 1번부터 N번 정점까지 모든 정점을 매번 탐색하므로 N의 시작복잡도가 발생한다. 우리는 이 부분에서 우선순위 큐를 이용하여 시간복잡도를 줄일 수 있다.우선순위 큐는 힙 정렬을 사용하기 때문에 logN의 시간복잡도로 매번 가장 작은 거리를 갖는 정점을 찾을 수 있다.
 
-```
-if (i == 0) { 
+`if (i == 0) { 
 
 
 D[i] = new Edge(i, 0);
@@ -47,8 +46,7 @@ D[i] = new Edge(i, Integer.MAX_VALUE);
  }
  
  pq.add(D[i]);
-Edge edge = pq.poll();
-```
+Edge edge = pq.poll();`
 
 현재 정점과 인접한 정점들을 갱신시키고 나서, 정점과 거리 정보를 우선순위 큐에 넣어준다. 그러면 우선순위 큐에는 check가 false인 정점들의 정보가 담기게 된다. `poll()` 메서드를 호출하는 행위만으로 가장 짧은 거리를 갖는 정점의 정보를 얻을 수 있다.
 우선순위 큐에 정점의 번호와 거리 정보를 넣기 위해 Edge 라는 클래스를 별도로 만들어서 정점 번호와 거리를 넣고, 주의해야 할 것은, 기본 자료형이 아니기 때문에 Comparable 를 구현하여서 정렬 기준을 정해줘야 한다. 가장 짧은 거리부터 선택되어야 하므로 거리를 기준으로 오름차순이 되도록 `compareTo()`를 구현한다.
