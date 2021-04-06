@@ -16,7 +16,7 @@
 
 위 과정을 통해 얻은 데이터들은 배열로 처리되고 저장된다. 
 
-# EX)
+### EX)
 ![image](https://user-images.githubusercontent.com/80773617/113661742-9ebe1f00-96e1-11eb-8e88-cb0144fde3ce.png)
 
 ![image](https://user-images.githubusercontent.com/80773617/113661787-b4334900-96e1-11eb-89ab-3d569dc23ed7.png)
