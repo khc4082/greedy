@@ -47,7 +47,7 @@
 > <img width="100" alt="다익스트라 진짜 배열" src="https://user-images.githubusercontent.com/51106969/113662249-b1852380-96e2-11eb-8a3f-7f77b6d14b03.PNG">
 >> 일반배열
 
-> <img width="100%" alt="다익스트라 큐" src="https://user-images.githubusercontent.com/51106969/113662255-b4801400-96e2-11eb-9c11-23559759b8e5.PNG">
+> <img width="100" alt="다익스트라 큐" src="https://user-images.githubusercontent.com/51106969/113662255-b4801400-96e2-11eb-9c11-23559759b8e5.PNG">
 >> 우선순위 큐
 
 ### 시간복잡도
