@@ -44,7 +44,7 @@
 코드가 실행되는 데에 걸린 시간(ms) 같이 출력
 
 
-> ![일반 배열](https://user-images.githubusercontent.com/51106969/113658299-bba32400-96da-11eb-953f-cd53726911a6.PNG)
+> <img width="50" alt="다익스트라 진짜 배열" src="https://user-images.githubusercontent.com/51106969/113662249-b1852380-96e2-11eb-8a3f-7f77b6d14b03.PNG">
 >> 일반배열
 
 > ![우선순위 큐](https://user-images.githubusercontent.com/51106969/113658456-0d4bae80-96db-11eb-861d-79390d285ca5.PNG)
