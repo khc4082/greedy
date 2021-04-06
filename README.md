@@ -44,15 +44,15 @@
 코드가 실행되는 데에 걸린 시간(ms) 같이 출력
 
 
-> <img width="90" alt="다익스트라 진짜 배열" src="https://user-images.githubusercontent.com/51106969/113662249-b1852380-96e2-11eb-8a3f-7f77b6d14b03.PNG">
+> <img width="50%" alt="다익스트라 진짜 배열" src="https://user-images.githubusercontent.com/51106969/113662249-b1852380-96e2-11eb-8a3f-7f77b6d14b03.PNG">
 >> 일반배열
 
-> <img width="90" alt="다익스트라 큐" src="https://user-images.githubusercontent.com/51106969/113662255-b4801400-96e2-11eb-9c11-23559759b8e5.PNG">
+> <img width="50%" alt="다익스트라 큐" src="https://user-images.githubusercontent.com/51106969/113662255-b4801400-96e2-11eb-9c11-23559759b8e5.PNG">
 >> 우선순위 큐
 
 ### 시간복잡도
 
-> <img width="90" alt="시간복잡도" src="https://user-images.githubusercontent.com/51106969/113662260-b649d780-96e2-11eb-8e99-4fdd47c3cdf9.PNG">
+> <img width="50%" alt="시간복잡도" src="https://user-images.githubusercontent.com/51106969/113662260-b649d780-96e2-11eb-8e99-4fdd47c3cdf9.PNG">
 >> 일반 배열을 사용하였을 경우 O(n^2) , 큐를 사용하였을 경우 O(n*logn) 임을 확인
 
 >> pq에 삽입 될 수 있는 정점은 최대 V^2이며 거리 갱신을 위해 간선을 E번 확인하기 때문에 총 시간복잡도는 O(ElogV) 가 됨 
