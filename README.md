@@ -103,5 +103,6 @@ Edge edge = pq.poll();
 > <p align="center"><img width="50%" alt="시간복잡도" src="https://user-images.githubusercontent.com/51106969/113662260-b649d780-96e2-11eb-8e99-4fdd47c3cdf9.PNG"></p>
 
 >> 일반 배열을 사용하였을 경우 O(n^2) , 큐를 사용하였을 경우 O(n*logn) 임을 확인
+
 >> pq에 삽입 될 수 있는 정점은 최대 V^2이며 거리 갱신을 위해 간선을 E번 확인하기 때문에 총 시간복잡도는 O(ElogV) 가 됨 
 
